@@ -3,8 +3,8 @@ import css from './Profile.module.css';
 const Profile = ({ name, tag, location, image, stats }) => {
   // console.log({ name, tag, location, image, stats });
   return (
-    <div>
-      <div className="wrap">
+    <div className={css.profile}>
+      <div className={css.wrap}>
         <img src={image} alt={`Avatar of ${name}`} className={css.avatar} />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
