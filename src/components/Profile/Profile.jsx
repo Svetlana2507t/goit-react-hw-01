@@ -1,6 +1,7 @@
 import css from './Profile.module.css';
 // import clsx from 'clsx';
 const Profile = ({ name, tag, location, image, stats }) => {
+  // console.log({ name, tag, location, image, stats });
   return (
     <div>
       <div className="wrap">
